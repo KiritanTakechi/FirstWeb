@@ -1,0 +1,12 @@
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -1; /* 使画布处于最底层 */
+}
+.content {
+    position: relative;
+    z-index: 1; /* 使其他元素处于画布上层 */
+}
